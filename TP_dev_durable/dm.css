@@ -1,0 +1,68 @@
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 20px;
+    padding: 20px;
+    background-color: #ffffd5;
+    color: #333;
+}
+
+header {
+    background-color: #03571f;
+    color: #ffffff;
+    padding: 10px;
+    text-align: center;
+}
+
+section {
+    margin-top: 20px;
+}
+
+h2 {
+    color: #f05757;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+footer {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #03571f;
+    color: #ffffff;
+    text-align: center;
+}
+/* Styles pour le bouton */
+button {
+    background-color: #03571f;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 10px;
+    /* center le button */
+    display: block;
+    margin: 0 auto;
+
+}
+
+.high-contrast {
+    background-color: #ffffff;
+    h2 {
+        color: #000000;
+    }
+    p {
+        color: #000000;
+    }
+    h1 {
+        color: #000000;
+    }
+    footer {
+        background-color: #99c9c6;
+    }
+    header {
+        background-color: #99c9c6;
+    }
+
+}
