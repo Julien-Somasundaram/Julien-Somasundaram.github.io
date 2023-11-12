@@ -33,6 +33,7 @@ footer {
     color: #ffffff;
     text-align: center;
 }
+
 /* Styles pour le bouton */
 button {
     background-color: #03571f;
@@ -41,32 +42,26 @@ button {
     border: none;
     cursor: pointer;
     margin-bottom: 10px;
-    /* center le button */
+    /* centrage du bouton */
     display: block;
     margin: 0 auto;
-
 }
+
 button:hover {
     background-color: #99c9c6;
 }
 
-
 .high-contrast {
     background-color: #ffffff;
-    h2 {
-        color: #000000;
-    }
-    p {
-        color: #000000;
-    }
-    h1 {
-        color: #000000;
-    }
-    footer {
-        background-color: #99c9c6;
-    }
-    header {
-        background-color: #99c9c6;
-    }
+}
 
+.high-contrast h2,
+.high-contrast p,
+.high-contrast h1 {
+    color: #000000;
+}
+
+.high-contrast footer,
+.high-contrast header {
+    background-color: #99c9c6;
 }
